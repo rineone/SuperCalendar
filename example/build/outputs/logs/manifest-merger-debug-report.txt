@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [:calendar] /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/calendar/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/design-28.0.0.aar/1d6ac0588adb910971e15aa5b7da3a4e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/42096ddb1915dcfe3b8fef8349e74a93/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3718f69b893a317246f7eac11b385058/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/f30a2251ef33d4cb7863ca3eb6320896/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/db42a0f1acb767af7b83f175d6602b38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1082c76dee078ea463d6d273531e1d83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/cdc0c78da027df30c1f5ae31b880c1c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/transition-28.0.0.aar/d19dcd50b77c7a9acd50eb942c890430/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7254e6ba2b0e3c98081fd462122839a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/cf6767d630f6e460b32e3f7f449d8cae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2c61c77effc21feaf366833fce1be652/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/53b7b2e1b2e5f774ab8331ad3186c8ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/customview-28.0.0.aar/90a809cd87f9f68c9becb160575bcd1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b2917b1a441cbb5215f8702d0f229a80/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c2047855d8cafd37af5a352fcd176a8f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/loader-28.0.0.aar/d41b86d3d47195c26bdb43df4afe7f9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a0deba855097e7e058b7e62c80cca1b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a25217262295541f5346fc73ac540661/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/11f1a86a2bf24f6e665edcb02ddf89c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f10f2f9972545cbf796f287cecd20bbe/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/runtime-1.1.1.aar/65dc5ccbf1e36665d7d88bf8f5993e31/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8629c38027be847101f08b081082010c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c8cb894b1e38da8d7b44a1e025b4de10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7ad1fdda3c424c73877c963ba477a6f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3dbc643b37000c00a64470d80ece6ec8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/print-28.0.0.aar/8916593ef0c456d1a81a24849e729f99/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c8e0f9e0fd065604a21d73254c70d2ac/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/livedata-1.1.1.aar/30c9be8ab67267b1df2ca08845682d88/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a079bbe42b00eedc91a5ce4036037918/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7cb1a6b1df33104708beb487c81caf7b/AndroidManifest.xml:17:1-22:12
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:3:5-43
+	android:versionName
+		INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:design:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/design-28.0.0.aar/1d6ac0588adb910971e15aa5b7da3a4e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/design-28.0.0.aar/1d6ac0588adb910971e15aa5b7da3a4e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a25217262295541f5346fc73ac540661/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a25217262295541f5346fc73ac540661/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f10f2f9972545cbf796f287cecd20bbe/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f10f2f9972545cbf796f287cecd20bbe/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a25217262295541f5346fc73ac540661/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:11:9-40
+activity#com.hqyxjy.ldf.supercalendar.SyllabusActivity
+ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:12:19-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+MERGED from [:calendar] /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/calendar/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:calendar] /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/calendar/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/design-28.0.0.aar/1d6ac0588adb910971e15aa5b7da3a4e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/design-28.0.0.aar/1d6ac0588adb910971e15aa5b7da3a4e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/42096ddb1915dcfe3b8fef8349e74a93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/42096ddb1915dcfe3b8fef8349e74a93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3718f69b893a317246f7eac11b385058/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3718f69b893a317246f7eac11b385058/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/f30a2251ef33d4cb7863ca3eb6320896/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/f30a2251ef33d4cb7863ca3eb6320896/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/db42a0f1acb767af7b83f175d6602b38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/db42a0f1acb767af7b83f175d6602b38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1082c76dee078ea463d6d273531e1d83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1082c76dee078ea463d6d273531e1d83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/cdc0c78da027df30c1f5ae31b880c1c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/cdc0c78da027df30c1f5ae31b880c1c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/transition-28.0.0.aar/d19dcd50b77c7a9acd50eb942c890430/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/transition-28.0.0.aar/d19dcd50b77c7a9acd50eb942c890430/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7254e6ba2b0e3c98081fd462122839a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/7254e6ba2b0e3c98081fd462122839a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/cf6767d630f6e460b32e3f7f449d8cae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/cf6767d630f6e460b32e3f7f449d8cae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2c61c77effc21feaf366833fce1be652/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/2c61c77effc21feaf366833fce1be652/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/53b7b2e1b2e5f774ab8331ad3186c8ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/53b7b2e1b2e5f774ab8331ad3186c8ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/customview-28.0.0.aar/90a809cd87f9f68c9becb160575bcd1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/customview-28.0.0.aar/90a809cd87f9f68c9becb160575bcd1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b2917b1a441cbb5215f8702d0f229a80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/b2917b1a441cbb5215f8702d0f229a80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c2047855d8cafd37af5a352fcd176a8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c2047855d8cafd37af5a352fcd176a8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/loader-28.0.0.aar/d41b86d3d47195c26bdb43df4afe7f9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/loader-28.0.0.aar/d41b86d3d47195c26bdb43df4afe7f9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a0deba855097e7e058b7e62c80cca1b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a0deba855097e7e058b7e62c80cca1b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a25217262295541f5346fc73ac540661/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a25217262295541f5346fc73ac540661/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/11f1a86a2bf24f6e665edcb02ddf89c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/11f1a86a2bf24f6e665edcb02ddf89c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f10f2f9972545cbf796f287cecd20bbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f10f2f9972545cbf796f287cecd20bbe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/runtime-1.1.1.aar/65dc5ccbf1e36665d7d88bf8f5993e31/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/runtime-1.1.1.aar/65dc5ccbf1e36665d7d88bf8f5993e31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8629c38027be847101f08b081082010c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8629c38027be847101f08b081082010c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c8cb894b1e38da8d7b44a1e025b4de10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c8cb894b1e38da8d7b44a1e025b4de10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7ad1fdda3c424c73877c963ba477a6f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7ad1fdda3c424c73877c963ba477a6f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3dbc643b37000c00a64470d80ece6ec8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3dbc643b37000c00a64470d80ece6ec8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/print-28.0.0.aar/8916593ef0c456d1a81a24849e729f99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/print-28.0.0.aar/8916593ef0c456d1a81a24849e729f99/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c8e0f9e0fd065604a21d73254c70d2ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/c8e0f9e0fd065604a21d73254c70d2ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/livedata-1.1.1.aar/30c9be8ab67267b1df2ca08845682d88/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/livedata-1.1.1.aar/30c9be8ab67267b1df2ca08845682d88/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a079bbe42b00eedc91a5ce4036037918/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a079bbe42b00eedc91a5ce4036037918/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7cb1a6b1df33104708beb487c81caf7b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/rine/.gradle/wrapper/dists/gradle-4.10.1-all/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7cb1a6b1df33104708beb487c81caf7b/AndroidManifest.xml:20:5-44
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/src/main/AndroidManifest.xml

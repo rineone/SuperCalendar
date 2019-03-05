@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Mar 05 13:20:46 CST 2019
+0.baseType=DIRECTORY
+0.base=/Volumes/Rine/借鉴项目Android/SuperCalendar-master（日历选择）/example/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
