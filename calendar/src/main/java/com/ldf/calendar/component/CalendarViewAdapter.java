@@ -273,6 +273,43 @@ public class CalendarViewAdapter extends PagerAdapter {
             }//每周的种子日期为这一周的最后一天
             v3.updateWeek(rowCount);
         } else {
+            //今日跳转数据返回
+            if (isToday){
+                if (onCalendarTypeChangedListener != null) {
+                    if (calendars!=null && calendars.size()>0
+                            && calendars.size()>currentPosition% 3){
+                        Calendar v1 = calendars.get(currentPosition % 3);//0
+                        onCalendarTypeChangedListener.onCalendarToday( v1.getPivotX(),v1.getPivotY());
+                    }
+                }
+            }else{
+                MonthPager.CURRENT_DAY_INDEX = currentPosition;
+
+                Calendar v1 = calendars.get(currentPosition % 3);//0
+                v1.showDate(seedDate);
+
+                Calendar v2 = calendars.get((currentPosition - 1) % 3);//2
+                CalendarDate last = seedDate.modifyMonth(-1);
+                last.setDay(1);
+                v2.showDate(last);
+
+                Calendar v3 = calendars.get((currentPosition + 1) % 3);//1
+                CalendarDate next = seedDate.modifyMonth(1);
+                next.setDay(1);
+                v3.showDate(next);
+            }
+        }
+
+    }
+
+
+    /**
+     * 改变今日点位置，分离
+     * 这样做是为了处理完点击事件以为再次处理。
+     * 比如动画。
+     */
+    public void toChangeTodayUi(){
+        try {
             MonthPager.CURRENT_DAY_INDEX = currentPosition;
 
             Calendar v1 = calendars.get(currentPosition % 3);//0
@@ -287,17 +324,8 @@ public class CalendarViewAdapter extends PagerAdapter {
             CalendarDate next = seedDate.modifyMonth(1);
             next.setDay(1);
             v3.showDate(next);
-        }
-        //今日跳转数据返回
-        if (isToday){
-            if (onCalendarTypeChangedListener != null) {
-                if (calendars!=null && calendars.size()>0
-                        && calendars.size()>currentPosition% 3){
-                    Calendar v1 = calendars.get(currentPosition % 3);//0
-                    onCalendarTypeChangedListener.onCalendarToday( v1.getPivotX(),v1.getPivotY());
-
-                }
-            }
+        }catch (Exception e){
+            Log.i("SuperCalenDar",e.toString());
         }
     }
 

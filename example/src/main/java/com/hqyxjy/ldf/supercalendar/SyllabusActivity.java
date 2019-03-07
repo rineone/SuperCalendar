@@ -179,14 +179,7 @@ public class SyllabusActivity extends AppCompatActivity {
     private void initCalendarView() {
         initListener();
         CustomDayView customDayView = new CustomDayView(context, R.layout.custom_day);
-        customDayView.setOnCustomDayViewChangedListener(new CustomDayView.OnCustomDayViewChanged() {
-            @Override
-            public void onGetToday(float x, float y,String dateTime) {
-                int a = 1;
-                if (dateTime.equals(todayStr)){
-                }
-            }
-        });
+
         calendarAdapter = new CalendarViewAdapter(
                 context,
                 onSelectDateListener,
@@ -201,6 +194,7 @@ public class SyllabusActivity extends AppCompatActivity {
             @Override
             public void onCalendarToday(float x,float y) {
                 Toast.makeText(context,"今日:x="+x+",y="+y,Toast.LENGTH_SHORT).show();
+                calendarAdapter.toChangeTodayUi();
             }
         });
         initMarkData();

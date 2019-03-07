@@ -57,10 +57,6 @@ public class ThemeDayView extends DayView {
         super.refreshContent();
     }
 
-    @Override
-    public void getXY(int x, int y, String date) {
-        int a = 1;
-    }
 
     @Override
     public IDayRenderer copy() {
