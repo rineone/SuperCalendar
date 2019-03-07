@@ -13,8 +13,6 @@ import com.ldf.calendar.interf.IDayRenderer;
 import com.ldf.calendar.model.CalendarDate;
 import com.ldf.calendar.view.DayView;
 
-import java.util.HashMap;
-
 /**
  * Created by ldf on 17/6/26.
  */
@@ -22,12 +20,14 @@ import java.util.HashMap;
 @SuppressLint("ViewConstructor")
 public class CustomDayView extends DayView {
 
+    private float x;
+    private float y;
     private TextView dateTv;
     private ImageView marker;
     private View selectedBackground;
     private View todayBackground;
     private final CalendarDate today = new CalendarDate();
-
+    private OnCustomDayViewChanged onCustomDayViewChangedListener;
     /**
      * 构造器
      *
@@ -49,6 +49,14 @@ public class CustomDayView extends DayView {
         renderMarker(day.getDate(), day.getState());
         super.refreshContent();
     }
+
+    @Override
+    public void getXY(int x, int y,String dateTime) {
+        this.x = x;
+        this.y = y;
+
+    }
+
 
     private void renderMarker(CalendarDate date, State state) {
         if (Utils.loadMarkData().containsKey(date.toString())) {
@@ -96,4 +104,12 @@ public class CustomDayView extends DayView {
     public IDayRenderer copy() {
         return new CustomDayView(context, layoutResource);
     }
+
+    public void setOnCustomDayViewChangedListener(OnCustomDayViewChanged onCustomDayViewChangedListener) {
+        this.onCustomDayViewChangedListener = onCustomDayViewChangedListener;
+    }
+    public interface OnCustomDayViewChanged {
+        void onGetToday(float x, float y,String dateTime);
+    }
+
 }

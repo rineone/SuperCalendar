@@ -58,10 +58,23 @@ public abstract class DayView extends RelativeLayout implements IDayRenderer {
     @Override
     public void drawDay(Canvas canvas, Day day) {
         this.day = day;
+        String dateTime = day.getDate().toString();
+        try {
+            getXY(getTranslateX(canvas, day),day.getPosRow() * getMeasuredHeight(),dateTime);
+        }catch (Exception e){
+            int a = 1;
+        }
+        if (dateTime.equals("2019-3-7")){
+            int a = getTranslateX(canvas, day);
+            int b = day.getPosRow() * getMeasuredHeight();
+            int c = 1;
+        }
         refreshContent();
         int saveId = canvas.save();
         canvas.translate(getTranslateX(canvas, day),
                 day.getPosRow() * getMeasuredHeight());
+
+
         draw(canvas);
         canvas.restoreToCount(saveId);
     }
@@ -80,4 +93,9 @@ public abstract class DayView extends RelativeLayout implements IDayRenderer {
         super.onDetachedFromWindow();
         Utils.cleanMarkData();
     }
+
+    /**
+     * 绑定事件
+     */
+    public abstract void getXY(int x,int y,String date);
 }

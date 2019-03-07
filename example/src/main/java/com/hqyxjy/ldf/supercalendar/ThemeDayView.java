@@ -58,6 +58,11 @@ public class ThemeDayView extends DayView {
     }
 
     @Override
+    public void getXY(int x, int y, String date) {
+        int a = 1;
+    }
+
+    @Override
     public IDayRenderer copy() {
         return new ThemeDayView(context, layoutResource);
     }

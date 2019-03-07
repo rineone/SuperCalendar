@@ -22,7 +22,9 @@ import com.ldf.calendar.component.CalendarViewAdapter;
 import com.ldf.calendar.model.CalendarDate;
 import com.ldf.calendar.view.Calendar;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 
 /**
@@ -49,6 +51,7 @@ public class SyllabusActivity extends AppCompatActivity {
     private Context context;
     private CalendarDate currentDate;
     private boolean initiated = false;
+    private String todayStr;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -75,6 +78,7 @@ public class SyllabusActivity extends AppCompatActivity {
         initCalendarView();
         initToolbarClickListener();
         Log.e("ldf","OnCreated");
+        todayStr = getTimeMonth();
     }
 
     /**
@@ -86,7 +90,7 @@ public class SyllabusActivity extends AppCompatActivity {
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
         if (hasFocus && !initiated) {
-            refreshMonthPager();
+            refreshMonthPager(false);
             initiated = true;
         }
     }
@@ -98,9 +102,22 @@ public class SyllabusActivity extends AppCompatActivity {
     * */
     @Override
     protected void onResume() {
+        Utils.scrollTo(content, rvToDoList, monthPager.getViewHeight(), 200);
+        calendarAdapter.switchToMonth();
         super.onResume();
     }
 
+    /**
+     * 获得当前时间
+     * @return 时间
+     */
+    public static String getTimeMonth(){
+        long time = System.currentTimeMillis();//long now = android.os.SystemClock.uptimeMillis();
+        SimpleDateFormat format=new SimpleDateFormat("yyyy-M-d");
+        Date d1=new Date(time);
+        String t1=format.format(d1);
+        return t1;
+    }
     /**
      * 初始化对应功能的listener
      *
@@ -110,7 +127,7 @@ public class SyllabusActivity extends AppCompatActivity {
         backToday.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onClickBackToDayBtn();
+                refreshMonthPager(true);
             }
         });
         scrollSwitch.setOnClickListener(new View.OnClickListener() {
@@ -162,6 +179,14 @@ public class SyllabusActivity extends AppCompatActivity {
     private void initCalendarView() {
         initListener();
         CustomDayView customDayView = new CustomDayView(context, R.layout.custom_day);
+        customDayView.setOnCustomDayViewChangedListener(new CustomDayView.OnCustomDayViewChanged() {
+            @Override
+            public void onGetToday(float x, float y,String dateTime) {
+                int a = 1;
+                if (dateTime.equals(todayStr)){
+                }
+            }
+        });
         calendarAdapter = new CalendarViewAdapter(
                 context,
                 onSelectDateListener,
@@ -171,6 +196,11 @@ public class SyllabusActivity extends AppCompatActivity {
             @Override
             public void onCalendarTypeChanged(CalendarAttr.CalendarType type) {
                 rvToDoList.scrollToPosition(0);
+            }
+
+            @Override
+            public void onCalendarToday(float x,float y) {
+                Toast.makeText(context,"今日:x="+x+",y="+y,Toast.LENGTH_SHORT).show();
             }
         });
         initMarkData();
@@ -250,13 +280,11 @@ public class SyllabusActivity extends AppCompatActivity {
         });
     }
 
-    public void onClickBackToDayBtn() {
-        refreshMonthPager();
-    }
 
-    private void refreshMonthPager() {
+
+    private void refreshMonthPager(boolean todayClick) {
         CalendarDate today = new CalendarDate();
-        calendarAdapter.notifyDataChanged(today);
+        calendarAdapter.notifyDataChanged(today,todayClick);
         tvYear.setText(today.getYear() + "年");
         tvMonth.setText(today.getMonth() + "");
     }
@@ -265,7 +293,7 @@ public class SyllabusActivity extends AppCompatActivity {
         ThemeDayView themeDayView = new ThemeDayView(context, R.layout.custom_day_focus);
         calendarAdapter.setCustomDayRenderer(themeDayView);
         calendarAdapter.notifyDataSetChanged();
-        calendarAdapter.notifyDataChanged(new CalendarDate());
+        calendarAdapter.notifyDataChanged(new CalendarDate(),false);
     }
 }
 

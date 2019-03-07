@@ -229,20 +229,26 @@ public class CalendarViewAdapter extends PagerAdapter {
 
     public void notifyMonthDataChanged(CalendarDate date) {
         seedDate = date;
-        refreshCalendar();
+        refreshCalendar(false);
     }
 
-    public void notifyDataChanged(CalendarDate date) {
+
+    /**
+     * 更新改变
+     * @param date
+     * @param todayClick （今日点击）
+     */
+    public void notifyDataChanged(CalendarDate date,boolean todayClick) {
         seedDate = date;
         saveSelectedDate(date);
-        refreshCalendar();
+        refreshCalendar(todayClick);
     }
 
     public void notifyDataChanged() {
-        refreshCalendar();
+        refreshCalendar(false);
     }
 
-    private void refreshCalendar() {
+    private void refreshCalendar(boolean isToday) {
         if (calendarType == CalendarAttr.CalendarType.WEEK) {
             MonthPager.CURRENT_DAY_INDEX = currentPosition;
             Calendar v1 = calendars.get(currentPosition % 3);
@@ -282,6 +288,17 @@ public class CalendarViewAdapter extends PagerAdapter {
             next.setDay(1);
             v3.showDate(next);
         }
+        //今日跳转数据返回
+        if (isToday){
+            if (onCalendarTypeChangedListener != null) {
+                if (calendars!=null && calendars.size()>0
+                        && calendars.size()>currentPosition% 3){
+                    Calendar v1 = calendars.get(currentPosition % 3);//0
+                    onCalendarTypeChangedListener.onCalendarToday( v1.getPivotX(),v1.getPivotY());
+
+                }
+            }
+        }
     }
 
     public CalendarAttr.CalendarType getCalendarType() {
@@ -314,5 +331,7 @@ public class CalendarViewAdapter extends PagerAdapter {
 
     public interface OnCalendarTypeChanged {
         void onCalendarTypeChanged(CalendarAttr.CalendarType type);
+        /**接收今日点的位置**/
+        void onCalendarToday(float x,float y);
     }
 }
