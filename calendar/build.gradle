@@ -6,7 +6,7 @@ group='com.github.SuperCalendar' // ××××代表你github名字
 android {
     compileSdkVersion 28
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 14
         targetSdkVersion 28
         versionCode 1
         versionName "1.2"
